@@ -47,7 +47,7 @@ const Bio: React.FC<object> = () => {
             while wondering if we all could just do a little bit more, maybe we
             could make more of a dent in these issues—something had to give. I
             also started to build a family of my own; the best part of my life but does not necessarily lend itself to increasing investment in my work.
-            {/* still sharpening tech skills via retained clients, increasing demands of family needs automation */}
+            {/* started developing solutions to automate but put in position where i couldnt, still sharpening tech skills via retained clients, increasing demands of family needs automation */}
           </p>
           <br />
           <p>
