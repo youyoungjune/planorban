@@ -20,4 +20,5 @@ export enum ESkillCategories {
 export interface ISkill {
   basics: IBasics;
   category: ESkillCategories;
+  needsInvert?: boolean;
 }

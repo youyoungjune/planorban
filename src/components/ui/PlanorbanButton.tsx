@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 const PlanorbanButton: React.FC<{
   children: ReactNode;
   variant: "red" | "blue" | "yellow";
-  href: string;
+  href?: string;
 }> = ({ children, variant, href }) => {
   let color: "danger" | "primary" | "warning" = "primary";
   switch (variant) {

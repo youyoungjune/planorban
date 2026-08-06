@@ -16,16 +16,15 @@ import "@ionic/react/css/normalize.css";
 import "@ionic/react/css/structure.css";
 import "@ionic/react/css/typography.css";
 import { useState } from "react";
-import Project from "./components/Project";
-import { Projects } from "./helpers/helpers";
-import { IProject } from "./types/types";
 import SkillsUI from "./components/SkillsUI";
-import React from "react";
+import Bio from "./components/Bio";
+import ProjectsUI from "./components/ProjectsUI";
 
 setupIonicReact();
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
+  const [bio, setBio] = useState<boolean>(false);
   return (
     <>
       <header className="grid grid-cols-12 min-h-[30vh] overflow-y-auto justify-center border-b border-neutral-700 bg-neutral-900 p-8">
@@ -47,7 +46,13 @@ function App() {
             />
           </IonButton>
           <IonPopover trigger="links-trigger" triggerAction="hover">
-            <IonContent>Test</IonContent>
+            <IonContent color="dark">
+              <div className="flex p-4">
+                <p className="text-4xl" onClick={() => setBio(true)}>
+                  &#128209;
+                </p>
+              </div>
+            </IonContent>
           </IonPopover>
           <p>
             Hello! My name is{" "}
@@ -69,19 +74,7 @@ function App() {
         </div>
       </header>
       <main className="overflow-y-auto h-[70vh]">
-        <div className="flex flex-col items-center min-h-[60vh] py-4 gap-y-4">
-          <div className="w-full text-center">
-            <h2>Projects</h2>
-            <p>Here's a portfolio of the kinds of apps I can build for you</p>
-          </div>
-          {Projects.map((project: IProject, index: number) => {
-            return (
-              <React.Fragment key={index}>
-                <Project project={project} />
-              </React.Fragment>
-            );
-          })}
-        </div>
+        {bio ? <Bio /> : <ProjectsUI />}
         <div className="flex justify-center pt-4 min-h-[10vh] max-h-[10vh] border-t border-neutral-700 bg-neutral-900">
           Test
         </div>

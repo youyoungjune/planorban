@@ -8,7 +8,7 @@ const Project: React.FC<{ project: IProject }> = ({ project }) => {
     <>
       <IonCard
         color="dark"
-        className="flex flex-col justify-center w-1/2 border border-neutral-700"
+        className="flex flex-col justify-center w-1/2 lg:w-full border border-neutral-700"
       >
         <img alt={project.basics.name} src={project.basics.image} />
         <IonCardHeader className="p-4">
@@ -19,7 +19,27 @@ const Project: React.FC<{ project: IProject }> = ({ project }) => {
             {project.basics.name}
           </PlanorbanButton>
         </IonCardHeader>
-        <IonCardContent>{project.description}</IonCardContent>
+        <IonCardContent className="flex flex-col">
+          <p>{project.description}</p>
+          <div className="flex justify-between gap-x-2 mt-4">
+            <div className="flex gap-x-2">
+              <img
+                alt="GitHub logo"
+                src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                className="h-10"
+              />
+              <PlanorbanButton variant="red">Frontend Repo</PlanorbanButton>
+            </div>
+            <div className="flex gap-x-2">
+              <PlanorbanButton variant="yellow">Backend Repo</PlanorbanButton>
+              <img
+                alt="GitHub logo"
+                src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                className="h-10"
+              />
+            </div>
+          </div>
+        </IonCardContent>
       </IonCard>
     </>
   );

@@ -27,7 +27,7 @@ const SkillsUI: React.FC<{}> = () => {
                                 title={skill.basics.name}
                                 alt={skill.basics.name}
                                 src={skill.basics.image}
-                                className={`h-10 w-fit`}
+                                className={`${skill.needsInvert ? "invert" : ""} h-10 w-fit`}
                               />
                             </React.Fragment>
                           );

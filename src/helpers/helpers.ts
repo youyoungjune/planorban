@@ -3,11 +3,11 @@ import { ESkillCategories, IProject, ISkill } from "../types/types";
 export const Projects: IProject[] = [
   {
     basics: {
-      name: "AIMS Events",
+      name: "AIMS Events (Lite)",
       image:
         "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLTPwL7l2uGCs53q0HRFJjxfngKbVZk68OXcYQ",
     },
-    description: `An Android mobile app written in Kotlin built from the ground up with one other teammate. Used to `,
+    description: `A modern Android mobile app built from the ground up with one other teammate. Used by universities/municipalities to validate and sell event tickets/permits by integrating with payment hardware such as card readers and receipt printers and third-party API's such as Ticketmaster. Check it out on the Google Play Store.`,
     link: "https://play.google.com/store/apps/details?id=com.aimsparking.aimsevents.googlePlay&utm_source=na_Med",
   },
   {
@@ -228,5 +228,103 @@ export const Skills: ISkill[] = [
         "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLAaSt54bqfmiLrBU6b4JvXS2OgIRYVkt1lQoD",
     },
     category: ESkillCategories.FRAMEWORKS,
+  },
+  {
+    basics: {
+      name: "Playwright (Typescript + C#)",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLcK79kBGXkgQ8fZnNRcBxymG7h5qLvISUudaH",
+    },
+    category: ESkillCategories.FRAMEWORKS,
+  },
+  {
+    basics: {
+      name: "Espresso",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLtPHGZUmo1TbgR82kftzaUVMw7Zxcr9pIXHj3",
+    },
+    category: ESkillCategories.FRAMEWORKS,
+  },
+  {
+    basics: {
+      name: "JUnit",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL12TcZo0SIuqtM4hzaKeJOjZwsAQ20XiFH7g5",
+    },
+    category: ESkillCategories.FRAMEWORKS,
+  },
+  {
+    basics: {
+      name: "NUnit",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLEe7yOz5zG9qQVaUmxS7eFRX1uwhZO6iWpclM",
+    },
+    category: ESkillCategories.FRAMEWORKS,
+  },
+  // {
+  //   basics: {
+  //     name: "PHPUnit",
+  //     image:
+  //       "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLGfjdWs6CTHsWgPjEl8BvQRmFd4D9UzLN6k7r",
+  //   },
+  //   category: ESkillCategories.FRAMEWORKS,
+  // },
+  {
+    basics: {
+      name: "JMeter",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLL5WrM4Y7EmPedUXZIz23wynVoYKMqrhuk5Fa",
+    },
+    category: ESkillCategories.FRAMEWORKS,
+  },
+  {
+    basics: {
+      name: "Cloudflare",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL6u9hCPaxG5jmiqyXaIwh1Y2ZnsMOocBEUFkp",
+    },
+    category: ESkillCategories.CLOUD,
+  },
+  {
+    basics: {
+      name: "Vercel",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLmLkAveWxJD4qIgwUPfQjndMSrBTvFNGE5ueL",
+    },
+    category: ESkillCategories.CLOUD,
+    needsInvert: true,
+  },
+  {
+    basics: {
+      name: "Fly.io",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/72df50f8-3c93-4a65-8b7e-11f6c3e09312-26b7.svg",
+    },
+    category: ESkillCategories.CLOUD,
+  },
+  {
+    basics: {
+      name: "Supabase",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLeZ6LqhyfFMSdZJQO8unA4H9iI1Vaz3WXPmUx",
+    },
+    category: ESkillCategories.CLOUD,
+  },
+  {
+    basics: {
+      name: "Render",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL5Du2YP8fLieHIWtKpZ0mgDCXwsE51NrnTlS4",
+    },
+    category: ESkillCategories.CLOUD,
+  },
+  {
+    basics: {
+      name: "Koyeb",
+      image:
+        "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLLiqWqoY7EmPedUXZIz23wynVoYKMqrhuk5Fa",
+    },
+    category: ESkillCategories.CLOUD,
+    needsInvert: true,
   },
 ];
