@@ -10,19 +10,46 @@ const Bio: React.FC<object> = () => {
           <p>Dear Recruiter,</p>
           <br />
           <p>
-            Even after 4 years away from the classroom, I am still a teacher at
-            heart. I re-entered tech after 7+ years in inner-city Syracuse
-            schools because I became convinced that automation is the only path
-            to meaningful progress in education. Now that I have AI software
-            engineering skills, I am ready to return to my core mission of
-            improving educational outcomes.
+            Even after 4 years in tech away from the classroom, I am still a
+            teacher at heart. I re-entered tech after 7+ years teaching in
+            inner-city Syracuse schools because I became convinced that
+            automation is the only path to meaningful progress in education. Now
+            that I have AI software engineering skills, I am ready to return to
+            my core mission of improving educational outcomes.
           </p>
           <br />
           <p>
             My edtech experience predates my teaching experience. I was trained
             in education policy data analytics through college internships
-            consulting educational institutions and nonprofits.
+            consulting educational institutions, nonprofits, and a career
+            development mentoring program I started. While analyzing data to
+            inform education policy decisions in these roles, I questioned
+            whether I could make effective recommendations that would ultimately
+            affect public school teachers without having the frame of reference
+            of being a public school teacher myself. Internalizing this notion,
+            I got my master's in teaching and was hired by the Syracuse City
+            School District where I tested my data-driven theories about what
+            kids need to succeed weighed against the demands of a public school
+            teacher for the next 7+ years.
           </p>
+          <br />
+          <p>
+            Now, teaching is not a 9-to-5 kind of job if you want to do it well.
+            Meeting with parents after we both get off work, homework help,
+            afterschool programs, etc; all of it is needed. In addition, I was
+            still sharpening my technical skills after the school day by
+            retaining some of my consulting clients from college, believing that
+            continuing to support their efforts in serving the community would
+            have ancillary benefits for kids. A lot to do and not enough time to
+            do it all; the catalyst for automation. This, compounded by growing
+            frustration because students are not growing at the pace that they
+            need to or the ever-increasing sense of urgency that arises—all the
+            while wondering if we all could just do a little bit more, maybe we
+            could make more of a dent in these issues—something had to give. I
+            also started to build a family of my own
+            {/* still sharpening tech skills via retained clients, increasing demands of family needs automation */}
+          </p>
+          <br />
           <p>
             My technology experience predates my education experience as I was
             trained in data analytics in college, focusing on education policy.
