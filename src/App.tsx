@@ -19,6 +19,7 @@ import { useState } from "react";
 import SkillsUI from "./components/SkillsUI";
 import Bio from "./components/Bio";
 import ProjectsUI from "./components/ProjectsUI";
+import Links from "./components/Links";
 
 setupIonicReact();
 
@@ -47,10 +48,8 @@ function App() {
           </IonButton>
           <IonPopover trigger="links-trigger" triggerAction="hover">
             <IonContent color="dark">
-              <div className="flex p-4">
-                <p className="text-4xl" onClick={() => setBio(true)}>
-                  &#128209;
-                </p>
+              <div className="p-4">
+                <Links setBio={setBio} />
               </div>
             </IonContent>
           </IonPopover>

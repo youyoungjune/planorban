@@ -3,7 +3,7 @@ import { Projects } from "../helpers/helpers";
 import { IProject } from "../types/types";
 import Project from "./Project";
 
-const ProjectsUI: React.FC<{}> = ({}) => {
+const ProjectsUI: React.FC<object> = () => {
   return (
     <>
       <div className="w-full text-center">

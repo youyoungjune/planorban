@@ -7,6 +7,8 @@ export interface IProject {
   basics: IBasics;
   description: string;
   link?: string;
+  frontendRepoLink?: string;
+  backendRepoLink?: string;
 }
 
 export enum ESkillCategories {

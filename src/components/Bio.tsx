@@ -1,7 +1,7 @@
-const Bio: React.FC<{}> = ({}) => {
+const Bio: React.FC<object> = () => {
   return (
     <>
-      <div className="flex justify-center p-4">
+      <div className="flex justify-center p-4 gap-x-4">
         <iframe
           src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLPJQZmCa2zC9gLsnEG3bAMYQ1UOwViherBmc5"
           className="h-175 xl:h-231.25 xl:w-175"
@@ -10,10 +10,10 @@ const Bio: React.FC<{}> = ({}) => {
           <p>Dear Recruiter,</p>
           <br />
           <p>
-            Even after 4 years away from the classroom, I am still a teacher. I
-            re-entered tech after 7+ years in inner-city Syracuse schools
-            because I became convinced that automation is the only path to
-            meaningful progress in education. Now that I have AI software
+            Even after 4 years away from the classroom, I am still a teacher at
+            heart. I re-entered tech after 7+ years in inner-city Syracuse
+            schools because I became convinced that automation is the only path
+            to meaningful progress in education. Now that I have AI software
             engineering skills, I am ready to return to my core mission of
             improving educational outcomes.
           </p>

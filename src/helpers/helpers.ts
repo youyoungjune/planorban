@@ -17,6 +17,8 @@ export const Projects: IProject[] = [
         "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLXAV4lOc39AZVJ2mqlrWf3bT4DUeS7ukICx0a",
     },
     description: `A small app to invite friends and collect RSVPs for my son's gender reveal party, written in Golang (mux) and TypeScript (Next.js) with PostgreSQL and JWT authentication. Deployed via Vercel and Fly.io. Log in with "recruiter" and "r3cruiter!".`,
+    frontendRepoLink: "https://github.com/youyoungjune/gender_reveal_ui",
+    backendRepoLink: "https://github.com/youyoungjune/grs",
   },
   {
     basics: {
@@ -25,6 +27,8 @@ export const Projects: IProject[] = [
         "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLwTlTJDQTKm6gGPnphtaix74bOwFfUSl8YM31",
     },
     description: `Forked from syraviews.com for our baby shower, I added some new tables and changed login logic, written in Golang (mux) and TypeScript (Next.js) with PostgreSQL and JWT authentication. Deployed via Vercel and Fly.io.`,
+    frontendRepoLink: "https://github.com/youyoungjune/baby-shower-ui",
+    backendRepoLink: "https://github.com/youyoungjune/grs",
   },
 ];
 
