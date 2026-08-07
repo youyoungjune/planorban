@@ -28,8 +28,8 @@ function App() {
   const [bio, setBio] = useState<boolean>(false);
   return (
     <>
-      <header className="grid grid-cols-12 min-h-[30vh] max-h-[30vh] overflow-y-auto justify-center border-b border-neutral-700 bg-neutral-900 p-8">
-        <div className="col-span-1 w-fit h-fit flex justify-start">
+      <header className="flex flex-col min-h-[30vh] max-h-[30vh] overflow-y-auto justify-center border-b border-neutral-700 bg-neutral-900 p-8">
+        <div className="flex justify-between items-start">
           <a href="https://planorban.com">
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLyac3HvNfwGCjY5F1plgsOi7kWRbQetrHaMKB"
@@ -37,8 +37,6 @@ function App() {
               className={`${isDarkMode ? "invert" : ""} size-10`}
             />
           </a>
-        </div>
-        <div className="col-span-10 flex flex-col justify-center items-center w-full">
           <IonButton id="links-trigger" fill="clear" className="w-fit">
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLUnvc5KtjuCHJXMhVGktnDBzvxQi2bIE5ofer"
@@ -53,6 +51,15 @@ function App() {
               </div>
             </IonContent>
           </IonPopover>
+          <IonButton
+            fill="clear"
+            color="warning"
+            onClick={() => setIsDarkMode(!isDarkMode)}
+          >
+            <IonIcon slot="icon-only" icon={sunnyOutline}></IonIcon>
+          </IonButton>
+        </div>
+        <div className="flex flex-col justify-center items-center w-full">
           <p>
             Hello! My name is{" "}
             <span className="hover:underline">
@@ -61,15 +68,6 @@ function App() {
           </p>
           <p>I am an AI Software Engineer skilled in:</p>
           <SkillsUI />
-        </div>
-        <div className="col-span-1 flex justify-end items-start h-fit">
-          <IonButton
-            fill="clear"
-            color="warning"
-            onClick={() => setIsDarkMode(!isDarkMode)}
-          >
-            <IonIcon slot="icon-only" icon={sunnyOutline}></IonIcon>
-          </IonButton>
         </div>
       </header>
       <main className="overflow-y-auto h-[70vh]">
