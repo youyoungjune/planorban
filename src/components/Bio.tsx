@@ -36,20 +36,21 @@ const Bio: React.FC<object> = () => {
           <p>
             Now, teaching is not a 9-to-5 kind of job if you want to do it well.
             Meeting with parents after they and I both get off work, homework
-            help, afterschool programs, etc; all of it is needed. In addition, I
-            would still sharpen my technical skills after the school day by
-            retaining some of my consulting clients from college, believing that
-            continuing to support their efforts in serving the community would
-            have ancillary benefits for kids. A lot to do and not enough time to
-            do it all; the catalyst for automation. This, compounded by growing
-            frustration because students are not progressing at the pace that
-            they need to or the ever-increasing sense of urgency that arises
-            when working in an area with high concentrations of poverty and
-            violence—all the while wondering if we all could just do a little
-            bit more, maybe we could make more of a dent in these
-            issues—something had to give. I also started to build a family of my
-            own; the best part of my life but does not necessarily lend itself
-            to increasing investment in my work.
+            help, afterschool programs, etc; all of it is needed. Plus, this
+            gets compounded by In addition, I would still sharpen my technical
+            skills after the school day by retaining some of my consulting
+            clients from college, believing that continuing to support their
+            efforts in serving the community would have ancillary benefits for
+            kids. A lot to do and not enough time to do it all; the catalyst for
+            automation. This, compounded by growing frustration because students
+            are not progressing at the pace that they need to or the
+            ever-increasing sense of urgency that arises when working in an area
+            with high concentrations of poverty and violence—all the while
+            wondering if we all could just do a little bit more, maybe we could
+            make more of a dent in these issues—something had to give. I also
+            started to build a family of my own; the best part of my life but
+            does not necessarily lend itself to increasing investment in my
+            work.
             {/* started developing solutions to automate but put in position where i couldnt, still sharpening tech skills via retained clients, increasing demands of family needs automation */}
           </p>
           <br />
