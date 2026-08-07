@@ -28,7 +28,7 @@ function App() {
   const [bio, setBio] = useState<boolean>(false);
   return (
     <>
-      <header className="grid grid-cols-12 min-h-[30vh] overflow-y-auto justify-center border-b border-neutral-700 bg-neutral-900 p-8">
+      <header className="grid grid-cols-12 min-h-[30vh] max-h-[30vh] overflow-y-auto justify-center border-b border-neutral-700 bg-neutral-900 p-8">
         <div className="col-span-1 w-fit h-fit flex justify-start">
           <a href="https://planorban.com">
             <img
@@ -74,7 +74,7 @@ function App() {
       </header>
       <main className="overflow-y-auto h-[70vh]">
         {bio ? <Bio /> : <ProjectsUI />}
-        <div className="flex justify-center pt-4 min-h-[10vh] max-h-[10vh] border-t border-neutral-700 bg-neutral-900">
+        <div className="flex justify-center items-center min-h-[10vh] max-h-[10vh] border-t border-neutral-700 bg-neutral-900">
           Test
         </div>
       </main>

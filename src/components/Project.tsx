@@ -9,7 +9,7 @@ const Project: React.FC<{ project: IProject }> = ({ project }) => {
     <>
       <IonCard
         color="dark"
-        className="flex flex-col justify-center w-1/2 lg:w-full border border-neutral-700"
+        className="flex flex-col justify-center w-11/12 sm:w-2/3 lg:w-1/2 xl:w-full border border-neutral-700"
       >
         <a href={project.link ? project.link : defaultLink}>
           <img alt={project.basics.name} src={project.basics.image} />

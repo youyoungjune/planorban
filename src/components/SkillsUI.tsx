@@ -3,7 +3,7 @@ import { ESkillCategories, ISkill } from "../types/types";
 import React from "react";
 import { Skills } from "../helpers/helpers";
 
-const SkillsUI: React.FC<{}> = () => {
+const SkillsUI: React.FC<object> = () => {
   return (
     <>
       <IonCard color="dark">
