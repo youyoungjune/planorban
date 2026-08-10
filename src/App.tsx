@@ -6,7 +6,7 @@ import {
   IonPopover,
   setupIonicReact,
 } from "@ionic/react";
-import { sunnyOutline } from "ionicons/icons";
+import { moonOutline, sunnyOutline } from "ionicons/icons";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -20,15 +20,18 @@ import SkillsUI from "./components/SkillsUI";
 import Bio from "./components/Bio";
 import ProjectsUI from "./components/ProjectsUI";
 import Links from "./components/Links";
+import useDarkMode from "./hooks/useDarkMode";
 
 setupIonicReact();
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
+  const [isDarkMode, setIsDarkMode] = useDarkMode();
   const [bio, setBio] = useState<boolean>(false);
   return (
     <>
-      <header className="flex flex-col min-h-[30vh] max-h-[30vh] overflow-y-auto justify-center border-b border-neutral-700 bg-neutral-900 p-8">
+      <header
+        className={`${isDarkMode ? "bg-neutral-900 border-neutral-700" : "border-neutral-300"} flex flex-col min-h-[30vh] max-h-[30vh] overflow-y-auto justify-center border-b p-8`}
+      >
         <div className="flex justify-between items-start">
           <a href="https://planorban.com">
             <img
@@ -53,10 +56,14 @@ function App() {
           </IonPopover>
           <IonButton
             fill="clear"
-            color="warning"
-            onClick={() => setIsDarkMode(!isDarkMode)}
+            color={isDarkMode ? "warning" : ""}
+            className={isDarkMode ? "" : "text-black"}
+            onClick={() => setIsDarkMode()}
           >
-            <IonIcon slot="icon-only" icon={sunnyOutline}></IonIcon>
+            <IonIcon
+              slot="icon-only"
+              icon={isDarkMode ? sunnyOutline : moonOutline}
+            ></IonIcon>
           </IonButton>
         </div>
         <div className="flex flex-col justify-center items-center w-full">
@@ -67,12 +74,14 @@ function App() {
             </span>
           </p>
           <p>I am an AI Software Engineer skilled in:</p>
-          <SkillsUI />
+          <SkillsUI isDarkMode={isDarkMode} />
         </div>
       </header>
       <main className="overflow-y-auto h-[70vh]">
-        {bio ? <Bio /> : <ProjectsUI />}
-        <div className="flex justify-center items-center min-h-[10vh] max-h-[10vh] border-t border-neutral-700 bg-neutral-900">
+        {bio ? <Bio /> : <ProjectsUI isDarkMode={isDarkMode} />}
+        <div
+          className={`${isDarkMode ? "bg-neutral-900 border-neutral-700" : "border-neutral-300"} flex justify-center items-center min-h-[10vh] max-h-[10vh] border-t`}
+        >
           Test
         </div>
       </main>

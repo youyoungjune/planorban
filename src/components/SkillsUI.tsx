@@ -3,15 +3,18 @@ import { ESkillCategories, ISkill } from "../types/types";
 import React from "react";
 import { Skills } from "../helpers/helpers";
 
-const SkillsUI: React.FC<object> = () => {
+const SkillsUI: React.FC<{ isDarkMode: boolean }> = ({ isDarkMode }) => {
   return (
     <>
-      <IonCard color="dark">
+      <IonCard color={isDarkMode ? "dark" : "light"}>
         {Object.values(ESkillCategories).map(
           (sc: ESkillCategories, index: number) => {
             return (
               <React.Fragment key={index}>
-                <IonButton color="dark" id={`${sc}-trigger`}>
+                <IonButton
+                  color={isDarkMode ? "dark" : "light"}
+                  id={`${sc}-trigger`}
+                >
                   {sc}
                 </IonButton>
                 <IonPopover trigger={`${sc}-trigger`} triggerAction="hover">

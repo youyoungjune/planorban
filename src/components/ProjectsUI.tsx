@@ -3,7 +3,7 @@ import { Projects } from "../helpers/helpers";
 import { IProject } from "../types/types";
 import Project from "./Project";
 
-const ProjectsUI: React.FC<object> = () => {
+const ProjectsUI: React.FC<{ isDarkMode: boolean }> = ({ isDarkMode }) => {
   return (
     <>
       <div className="w-full text-center">
@@ -15,7 +15,7 @@ const ProjectsUI: React.FC<object> = () => {
           {Projects.map((project: IProject, index: number) => {
             return (
               <React.Fragment key={index}>
-                <Project project={project} />
+                <Project project={project} isDarkMode={isDarkMode} />
               </React.Fragment>
             );
           })}
