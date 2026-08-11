@@ -96,7 +96,7 @@ function App() {
               />
             </a>
             <a
-              className="ms-2 hover:underline hidden"
+              className="ms-2 hover:underline hidden sm:block"
               href="https://github.com/youyoungjune/planorban"
               target="_blank"
             >
@@ -106,7 +106,7 @@ function App() {
           <div className="flex items-center">
             <p className="text-end">
               {!bio ? (
-                <span>
+                <span className="hidden sm:inline">
                   See my{" "}
                   <span
                     className="hover:underline hover:cursor-pointer"

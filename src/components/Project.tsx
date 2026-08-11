@@ -31,7 +31,10 @@ const Project: React.FC<{ project: IProject; isDarkMode: boolean }> = ({
             <div className="flex justify-between gap-x-2 mt-4">
               {project.frontendRepoLink ? (
                 <div className="flex gap-x-2">
-                  <a href={project.frontendRepoLink}>
+                  <a
+                    href={project.frontendRepoLink}
+                    className="hidden sm:block"
+                  >
                     <img
                       alt="GitHub logo"
                       src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
@@ -54,7 +57,7 @@ const Project: React.FC<{ project: IProject; isDarkMode: boolean }> = ({
                   >
                     Backend Repo
                   </PlanorbanButton>
-                  <a href={project.backendRepoLink}>
+                  <a href={project.backendRepoLink} className="hidden sm:block">
                     <img
                       alt="GitHub logo"
                       src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"

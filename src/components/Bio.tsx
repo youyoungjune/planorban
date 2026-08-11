@@ -19,7 +19,7 @@ const Bio: React.FC<{
         >
           <IonIcon slot="icon-only" icon={homeOutline}></IonIcon>
         </IonButton>
-        <div className="flex justify-center gap-x-4">
+        <div className="flex flex-col xl:flex-row justify-center gap-y-4 xl:gap-y-0 gap-x-4">
           <iframe
             src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLPJQZmCa2zC9gLsnEG3bAMYQ1UOwViherBmc5"
             className="h-175 xl:h-231.25 xl:w-175"
