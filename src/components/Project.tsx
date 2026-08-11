@@ -14,7 +14,7 @@ const Project: React.FC<{ project: IProject; isDarkMode: boolean }> = ({
         color={isDarkMode ? "dark" : "light"}
         className={`${isDarkMode ? "border-neutral-700" : "border-neutral-300"} flex flex-col justify-center w-11/12 sm:w-2/3 lg:w-1/2 xl:w-full border`}
       >
-        <a href={project.link ? project.link : defaultLink}>
+        <a href={project.link ? project.link : defaultLink} target="_blank">
           <img alt={project.basics.name} src={project.basics.image} />
         </a>
         <IonCardHeader className="p-4">
@@ -34,6 +34,7 @@ const Project: React.FC<{ project: IProject; isDarkMode: boolean }> = ({
                   <a
                     href={project.frontendRepoLink}
                     className="hidden sm:block"
+                    target="_blank"
                   >
                     <img
                       alt="GitHub logo"
@@ -57,7 +58,11 @@ const Project: React.FC<{ project: IProject; isDarkMode: boolean }> = ({
                   >
                     Backend Repo
                   </PlanorbanButton>
-                  <a href={project.backendRepoLink} className="hidden sm:block">
+                  <a
+                    href={project.backendRepoLink}
+                    className="hidden sm:block"
+                    target="_blank"
+                  >
                     <img
                       alt="GitHub logo"
                       src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"

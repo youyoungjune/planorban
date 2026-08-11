@@ -40,7 +40,12 @@ function App() {
               className={`${isDarkMode ? "invert" : ""} size-10`}
             />
           </a>
-          <IonButton id="links-trigger" fill="clear" className="w-fit">
+          <IonButton
+            id="links-trigger"
+            fill="clear"
+            className="w-fit"
+            shape="round"
+          >
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLUnvc5KtjuCHJXMhVGktnDBzvxQi2bIE5ofer"
               alt="Headshot"
@@ -71,7 +76,9 @@ function App() {
           <p>
             Hello! My name is{" "}
             <span className="hover:underline">
-              <a href="https://github.com/youyoungjune">James Yu.</a>
+              <a href="https://github.com/youyoungjune" target="_blank">
+                James Yu.
+              </a>
             </span>
           </p>
           <p>I am an AI Software Engineer skilled in:</p>
@@ -88,7 +95,7 @@ function App() {
           className={`${isDarkMode ? "bg-neutral-900 border-neutral-700" : "border-neutral-300"} flex justify-between items-center min-h-[10vh] max-h-[10vh] border-t p-4`}
         >
           <div className="flex items-center">
-            <a href="https://github.com/youyoungjune/planorban">
+            <a href="https://github.com/youyoungjune/planorban" target="_blank">
               <img
                 alt="GitHub logo"
                 src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"

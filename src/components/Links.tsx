@@ -10,7 +10,7 @@ const Links: React.FC<{
         >
           &#128209;
         </p>
-        <a href="https://www.linkedin.com/in/jamesdavidyu/">
+        <a href="https://www.linkedin.com/in/jamesdavidyu/" target="_blank">
           <img
             title="LinkedIn"
             alt="LinkedIn"
@@ -22,12 +22,13 @@ const Links: React.FC<{
           className="text-5xl"
           href="mailto:jamesdavidyu@gmail.com"
           title="jamesdavidyu@gmail.com"
+          target="_blank"
         >
           &#128231;
         </a>
       </div>
       <div className="flex justify-center items-center gap-x-4 mt-2">
-        <a href="https://github.com/youyoungjune">
+        <a href="https://github.com/youyoungjune" target="_blank">
           <img
             title="Personal GitHub"
             alt="Personal GitHub"
@@ -35,7 +36,7 @@ const Links: React.FC<{
             className="h-10"
           />
         </a>
-        <a href="https://github.com/jamesdavidyu">
+        <a href="https://github.com/jamesdavidyu" target="_blank">
           <img
             title="Work GitHub"
             alt="Work GitHub"

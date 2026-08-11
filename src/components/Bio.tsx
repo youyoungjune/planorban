@@ -114,6 +114,7 @@ const Bio: React.FC<{
               and skills and can be reached at{" "}
               <a
                 href="mailto:jamesdavidyu@gmail.com"
+                target="_blank"
                 className="hover:underline hover:cursor-pointer text-blue-600"
               >
                 jamesdavidyu@gmail.com
