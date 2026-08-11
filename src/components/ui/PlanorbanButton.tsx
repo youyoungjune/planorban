@@ -3,9 +3,10 @@ import { ReactNode } from "react";
 
 const PlanorbanButton: React.FC<{
   children: ReactNode;
-  variant: "red" | "blue" | "yellow";
+  variant: "red" | "blue" | "yellow" | "link";
   href?: string;
-}> = ({ children, variant, href }) => {
+  onClick?: () => void;
+}> = ({ children, variant, href, onClick }) => {
   let color: "danger" | "primary" | "warning" = "primary";
   switch (variant) {
     case "red":
@@ -21,7 +22,13 @@ const PlanorbanButton: React.FC<{
   }
   return (
     <>
-      <IonButton color={color} href={href} target="_blank">
+      <IonButton
+        color={color}
+        href={href}
+        target="_blank"
+        fill={variant === "link" ? "clear" : "solid"}
+        onClick={onClick}
+      >
         {children}
       </IonButton>
     </>

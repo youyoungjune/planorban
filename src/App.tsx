@@ -78,11 +78,50 @@ function App() {
         </div>
       </header>
       <main className="overflow-y-auto h-[70vh]">
-        {bio ? <Bio /> : <ProjectsUI isDarkMode={isDarkMode} />}
+        {bio ? <Bio setBio={setBio} /> : <ProjectsUI isDarkMode={isDarkMode} />}
         <div
-          className={`${isDarkMode ? "bg-neutral-900 border-neutral-700" : "border-neutral-300"} flex justify-center items-center min-h-[10vh] max-h-[10vh] border-t`}
+          className={`${isDarkMode ? "bg-neutral-900 border-neutral-700" : "border-neutral-300"} flex justify-between items-center min-h-[10vh] max-h-[10vh] border-t p-4`}
         >
-          Test
+          <a href="https://github.com/youyoungjune/planorban">
+            <img
+              alt="GitHub logo"
+              src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+              className="h-10"
+            />
+          </a>
+          <p>
+            {!bio ? (
+              <span>
+                See my{" "}
+                <span
+                  className="hover:underline hover:cursor-pointer"
+                  onClick={() => setBio(true)}
+                >
+                  resume and cover letter
+                </span>
+                .{" "}
+              </span>
+            ) : null}
+            <span
+              id="connect-trigger"
+              className="hover:underline hover:cursor-pointer"
+            >
+              Let's connect!
+            </span>
+            <IonPopover trigger="connect-trigger" triggerAction="click">
+              <IonContent color="dark">
+                <div className="p-4">
+                  <Links setBio={setBio} />
+                </div>
+              </IonContent>
+            </IonPopover>
+            <span
+              className={`${!bio ? "hover:cursor-pointer" : ""} text-3xl`}
+              onClick={() => setBio(true)}
+            >
+              &#128209;
+            </span>
+          </p>
         </div>
       </main>
     </>

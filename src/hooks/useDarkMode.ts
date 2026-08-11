@@ -11,15 +11,15 @@ export default function useDarkMode(): [boolean, () => void] {
   };
 
   const [isDarkMode, setIsDarkMode] = useState<boolean>(
-    localStorage.getItem("isDarkMode") === null ||
-      localStorage.getItem("isDarkMode") === "true",
+    localStorage.getItem("PLANORBAN_DARK_MODE") === null ||
+      localStorage.getItem("PLANORBAN_DARK_MODE") === "true",
   );
 
   adjustRootCSS();
 
   const toggle = () => {
-    localStorage.setItem("isDarkMode", String(!isDarkMode));
-    setIsDarkMode(localStorage.getItem("isDarkMode") === "true");
+    localStorage.setItem("PLANORBAN_DARK_MODE", String(!isDarkMode));
+    setIsDarkMode(localStorage.getItem("PLANORBAN_DARK_MODE") === "true");
     adjustRootCSS();
   };
   return [isDarkMode, toggle];
