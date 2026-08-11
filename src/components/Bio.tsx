@@ -28,7 +28,7 @@ const Bio: React.FC<{
             <p>Dear Recruiter,</p>
             <br />
             <p>
-              Even after 4 years in tech away from the classroom, I am still a
+              Even after 3 years in tech away from the classroom, I am still a
               teacher at heart. I re-entered tech after 7+ years teaching in
               inner-city Syracuse schools because I became convinced that
               automation is the only path to meaningful progress in education.
@@ -43,16 +43,67 @@ const Bio: React.FC<{
               career development mentoring program I started. While analyzing
               data to inform education policy decisions in these roles, I
               questioned whether I could make effective recommendations that
-              would ultimately affect public school teachers without having the
-              frame of reference of being a public school teacher myself.
-              Internalizing this notion, I got my master's in teaching and was
-              hired by the Syracuse City School District where I tested my
-              data-driven theories about what kids need to succeed weighed
-              against the demands of a public school teacher for the next 7+
-              years.
+              would ultimately affect public school teachers without the frame
+              of reference of having been one myself. Internalizing this notion,
+              I got my master's in teaching and was hired by the Syracuse City
+              School District where I tested my data-driven theories about what
+              kids need to succeed weighed against the demands of public
+              education for the next 7+ years.
             </p>
             <br />
             <p>
+              But there is simply not enough time in the day to educate kids to
+              the level they deserve. Even being packed with classes and
+              meetings, the school day on its own is just not enough to
+              adequately progress students regardless of background let alone
+              those born in poverty and violence. This leaves all the other
+              activities that are just as important to student success like
+              meeting parents, tutoring, extracurriculars, etc. to the
+              afterschool hours and even then, it never felt like there was
+              enough time to make the impact I sought. For awhile, I
+              begrudgingly accepted this reality. I could only do so much and
+              what I was doing was my best; I bought as much time as I could
+              after school by applying my data analytics skills to automate my
+              classroom procedures, keeping at my career development mentoring
+              research, and I also had retained some of my consulting clients
+              from college, believing that continuing to support their efforts
+              in serving the community would have ancillary benefits for kids.
+              Over time, however, as my familial responsibilities grew with age
+              and the time after work I could dedicate to education analytics
+              dwindled, the lifestyle came to be unsustainable and I found
+              myself in a position of having to choose between technology, which
+              held my only hope for students, or my teaching career.
+              Reluctantly, I chose to return to tech; although I would be
+              leaving my students, I knew the gap would only put me in a better
+              position to serve them.
+            </p>
+            <br />
+            <p>
+              {/* need to mention i started to pick up software dev around this time */}
+              My first stint when I rejoined tech was at a remote consultancy
+              called Quality Information Partners &#040;QIP&#041;, where I was
+              contracted by the U.S. Department of Education as a data analyst.
+              It was a great job that married my interests in technology and ed
+              policy enough to where I could justify my decision to leave the
+              classroom.
+            </p>
+            <br />
+            <p>
+              I turned to the only
+              {/*  */}
+              if you want to do it well. The school day is booked solid with
+              classes and meetings
+              {/*  */}
+              The school day is pretty much booked solid with classes and
+              meetings and even that is still not enough time to progress
+              students let alone kids born into poverty and violence. Now, the
+              school day is already pretty much booked solid with classes and
+              meetings so if I wanted to apply my data analytics skills, it'd
+              have to be after hours whenever I did not have appointments with
+              parents or afterschool programs.
+            </p>
+            <p>
+              {/* Want to demonstrate automation was needed... because not enough time because wanting to go above and beyond as teacher while having family */}
               Now, teaching is not a 9-to-5 kind of job if you want to do it
               well. Meeting with parents after they and I both get off work,
               homework help, afterschool programs, etc; all of it is needed.
