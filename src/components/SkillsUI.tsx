@@ -18,7 +18,7 @@ const SkillsUI: React.FC<{ isDarkMode: boolean }> = ({ isDarkMode }) => {
                   {sc}
                 </IonButton>
                 <IonPopover trigger={`${sc}-trigger`} triggerAction="hover">
-                  <IonContent color="dark">
+                  <IonContent color={isDarkMode ? "dark" : "medium"}>
                     <div className="grid grid-cols-3 p-4 place-items-center gap-y-4">
                       {Skills.sort((a: ISkill, b: ISkill) =>
                         a.basics.name.localeCompare(b.basics.name),

@@ -1,20 +1,25 @@
-import { IonIcon } from "@ionic/react";
-import PlanorbanButton from "./ui/PlanorbanButton";
+import { IonButton, IonIcon } from "@ionic/react";
 import { homeOutline } from "ionicons/icons";
 
-const Bio: React.FC<{ setBio: (bio: boolean) => void }> = ({ setBio }) => {
+const Bio: React.FC<{
+  setBio: (bio: boolean) => void;
+  isDarkMode: boolean;
+}> = ({ setBio, isDarkMode }) => {
   return (
     <>
-      <div className="flex flex-col justify-center p-4">
-        <PlanorbanButton
-          variant="link"
+      <div className="flex flex-col items-center p-4">
+        <IonButton
+          fill="clear"
+          color={isDarkMode ? "light" : "dark"}
+          className="w-fit mb-4"
+          shape="round"
           onClick={() => {
             setBio(false);
           }}
         >
           <IonIcon slot="icon-only" icon={homeOutline}></IonIcon>
-        </PlanorbanButton>
-        <div className="flex gap-x-4">
+        </IonButton>
+        <div className="flex justify-center gap-x-4">
           <iframe
             src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLPJQZmCa2zC9gLsnEG3bAMYQ1UOwViherBmc5"
             className="h-175 xl:h-231.25 xl:w-175"
