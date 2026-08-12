@@ -48,7 +48,7 @@ const Bio: React.FC<{
               I got my master's in teaching and was hired by the Syracuse City
               School District where I tested my data-driven theories about what
               kids need to succeed weighed against the demands of public
-              education for the next 7+ years.
+              education for the next 7 years.
             </p>
             <br />
             <p>
@@ -60,115 +60,64 @@ const Bio: React.FC<{
               activities that are just as important to student success like
               meeting parents, tutoring, extracurriculars, etc. to the
               afterschool hours and even then, it never felt like there was
-              enough time to make the impact I sought. For awhile, I
-              begrudgingly accepted this reality. I could only do so much and
-              what I was doing was my best; I bought as much time as I could
-              after school by applying my data analytics skills to automate my
-              classroom procedures, keeping at my career development mentoring
-              research, and I also had retained some of my consulting clients
-              from college, believing that continuing to support their efforts
-              in serving the community would have ancillary benefits for kids.
-              Over time, however, as my familial responsibilities grew with age
-              and the time after work I could dedicate to education analytics
-              dwindled, the lifestyle came to be unsustainable and I found
-              myself in a position of having to choose between technology, which
-              held my only hope for students, or my teaching career.
-              Reluctantly, I chose to return to tech; although I would be
-              leaving my students, I knew the gap would only put me in a better
-              position to serve them.
-            </p>
-            <br />
-            <p>
-              {/* need to mention i started to pick up software dev around this time */}
-              My first stint when I rejoined tech was at a remote consultancy
-              called Quality Information Partners &#040;QIP&#041;, where I was
-              contracted by the U.S. Department of Education as a data analyst.
-              It was a great job that married my interests in technology and ed
-              policy enough to where I could justify my decision to leave the
-              classroom. As is the nature of contract work, my team and I were
-              affected by the effort to dismantle the Department of Education
-              and our contract was cancelled.
-            </p>
-            <br />
-            <p>
-              I turned to the only
-              {/*  */}
-              if you want to do it well. The school day is booked solid with
-              classes and meetings
-              {/*  */}
-              The school day is pretty much booked solid with classes and
-              meetings and even that is still not enough time to progress
-              students let alone kids born into poverty and violence. Now, the
-              school day is already pretty much booked solid with classes and
-              meetings so if I wanted to apply my data analytics skills, it'd
-              have to be after hours whenever I did not have appointments with
-              parents or afterschool programs.
-            </p>
-            <p>
-              {/* Want to demonstrate automation was needed... because not enough time because wanting to go above and beyond as teacher while having family */}
-              Now, teaching is not a 9-to-5 kind of job if you want to do it
-              well. Meeting with parents after they and I both get off work,
-              homework help, afterschool programs, etc; all of it is needed.
-              Plus, this gets compounded by In addition, I would still sharpen
-              my technical skills after the school day by retaining some of my
+              enough time to make the impact I sought. We need automated
+              solutions that can recoup teachers' lost time in order to properly
+              equip students. For awhile, I begrudgingly accepted this reality.
+              I could only do so much and what I was doing was my best; I bought
+              as much time as I could after school by applying my data analytics
+              skills to automate my classroom procedures, I kept at my career
+              development mentoring research, and I also had retained some of my
               consulting clients from college, believing that continuing to
               support their efforts in serving the community would have
-              ancillary benefits for kids. A lot to do and not enough time to do
-              it all; the catalyst for automation. This, compounded by growing
-              frustration because students are not progressing at the pace that
-              they need to or the ever-increasing sense of urgency that arises
-              when working in an area with high concentrations of poverty and
-              violence—all the while wondering if we all could just do a little
-              bit more, maybe we could make more of a dent in these
-              issues—something had to give. I also started to build a family of
-              my own; the best part of my life but does not necessarily lend
-              itself to increasing investment in my work.
-              {/* started developing solutions to automate but put in position where i couldnt, still sharpening tech skills via retained clients, increasing demands of family needs automation */}
+              ancillary benefits for kids. Over time, however, as my familial
+              responsibilities grew with age and the time after work I could
+              dedicate to education analytics dwindled, the lifestyle came to be
+              unsustainable and I found myself in a position of having to choose
+              between technology, which held my only hope for students, or my
+              teaching career; I only had time for one or the other. Guiltily, I
+              chose to return to tech; although I would be leaving my students,
+              I knew the gap would only put me in a better position to serve
+              them.
             </p>
             <br />
             <p>
-              My technology experience predates my education experience as I was
-              trained in data analytics in college, focusing on education
-              policy. While studying education data, I felt the urge to get
-              classroom teaching experience to better understand the data I was
-              analyzing, always intending to return to tech. As a teacher, I
-              would fulfill my typical teaching duties during the day while
-              completing client and personal analytics projects in the evenings
-              using Python, SQL, and Excel, incorporating technology in my
-              classroom wherever I could to innovate teaching. Accumulating more
-              responsibilities as I got older and losing some of that evening
-              time but unwilling to lose technical skills, I sought automation
-              to make up for the lost time. However, I had much to learn before
-              I could use automation effectively in the classroom and ultimately
-              the decrease in time put me in a position of feeling I had to
-              decide between teaching and technology. Believing that developing
-              my technical skills would be more beneficial to education, I
-              became an Education Data Analyst at Quality Information Partners
-              where I experienced some of the best professional development of
-              my life, writing SQL and VBA programs to automate report-building
-              for the U.S. Department of Education as a contractor. Working
-              remotely also gave me a little more evening time where my
-              insistence for automation helped me discover software development,
-              building apps in Typescript &#040;Next.js&#041; with Java
-              &#040;Spring Boot&#041;, Python &#040;Django&#041;, and Golang
-              &#040;mux&#041; on the backend. I see software development as the
-              ultimate automation of data reporting, “scheduling” data fetches
-              and setting up displays for these data ahead of time instead of
-              manually and time-consumingly building dashboards for the same
-              data display, and I have become addicted. When I retire, I will
-              likely spend my day-to-day building apps. I realized I want to
-              build tools like yours for teachers and students over analytic
-              dashboards.
+              My first stint when I rejoined tech was at a remote consultancy
+              called Quality Information Partners where I was contracted by the
+              U.S. Department of Education as a data analyst. This job married
+              my interests in technology and ed policy enough to quell my guilt
+              as I could continue contributing to public education through my
+              efforts informing policy decisions that trickle down to students,
+              while also growing in my coding skills. Around this time, I picked
+              up app development, imagining tools that could have further
+              automated my teaching workflows or career development mentoring
+              and building them in Golang and Typescript React.
             </p>
             <br />
             <p>
-              Trying to bridge technology and education motivates me to become a
-              Software Engineer. I am happy to expand on my story, experience,
-              and skills and can be reached at{" "}
+              As is the provisional nature of contract work, a year-and-a-half
+              into this position, my team and I were affected by the effort to
+              dismantle the Department of Education and our contract was
+              cancelled. By this time though, I had cultivated a joy for
+              building apps so I took this chance to apply for software
+              engineering roles. I currently work as a junior software engineer
+              at Electronic Data Collection Corporation and while I am now in a
+              different industry, I am still able to serve the education field
+              as most of our clients are higher education institutions.
+              Furthermore, I am able to have access to tools like Claude Code,
+              AWS, and specialized point-of-sale Android devices, all of which I
+              have taken advantage of to continue growing in my technical
+              skills.
+            </p>
+            <br />
+            <p>
+              I am now a seasoned software engineer who can efficiently develop
+              applications together with AI, ready to reapply this experience
+              more directly to education. I am happy to expand on my story,
+              experience, and skills and can be reached at{" "}
               <a
                 href="mailto:jamesdavidyu@gmail.com"
                 target="_blank"
-                className="hover:underline hover:cursor-pointer text-blue-600"
+                className="hover:underline hover:cursor-pointer"
               >
                 jamesdavidyu@gmail.com
               </a>{" "}
