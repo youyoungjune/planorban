@@ -86,7 +86,7 @@ const Bio: React.FC<{
               U.S. Department of Education as a data analyst. This job married
               my interests in technology and ed policy enough to quell my guilt
               as I could continue contributing to public education through my
-              efforts informing policy decisions that trickle down to students,
+              efforts informing policy decisions that trickle down to students
               while also growing in my coding skills. Around this time, I picked
               up app development, imagining tools that could have further
               automated my teaching workflows or career development mentoring
