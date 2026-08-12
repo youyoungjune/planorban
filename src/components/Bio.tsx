@@ -106,7 +106,9 @@ const Bio: React.FC<{
               Furthermore, I am able to have access to tools like Claude Code,
               AWS, and specialized point-of-sale Android devices, all of which I
               have taken advantage of to continue growing in my technical
-              skills.
+              skills. That being said, while I feel lucky in my current
+              position, I can never forget my students and will always look for
+              ways I can serve them again now with my newfound skills.
             </p>
             <br />
             <p>
