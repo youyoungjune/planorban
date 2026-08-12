@@ -55,7 +55,7 @@ const Bio: React.FC<{
               But there is simply not enough time in the day to educate kids to
               the level they deserve. Even being packed with classes and
               meetings, the school day on its own is just not enough to
-              adequately progress students regardless of background let alone
+              adequately progress students—regardless of background let alone
               those born in poverty and violence. This leaves all the other
               activities that are just as important to student success like
               meeting parents, tutoring, extracurriculars, etc. to the
@@ -85,7 +85,9 @@ const Bio: React.FC<{
               contracted by the U.S. Department of Education as a data analyst.
               It was a great job that married my interests in technology and ed
               policy enough to where I could justify my decision to leave the
-              classroom.
+              classroom. As is the nature of contract work, my team and I were
+              affected by the effort to dismantle the Department of Education
+              and our contract was cancelled.
             </p>
             <br />
             <p>
