@@ -19,7 +19,7 @@ const Bio: React.FC<{
         >
           <IonIcon slot="icon-only" icon={homeOutline}></IonIcon>
         </IonButton>
-        <div className="flex flex-col xl:flex-row justify-center gap-y-4 xl:gap-y-0 gap-x-4">
+        <div className="flex flex-col xl:flex-row justify-center gap-y-8 xl:gap-y-0 gap-x-4">
           <iframe
             src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLPJQZmCa2zC9gLsnEG3bAMYQ1UOwViherBmc5"
             className="h-175 xl:h-231.25 xl:w-175"
@@ -75,9 +75,9 @@ const Bio: React.FC<{
               unsustainable and I found myself in a position of having to choose
               between technology, which held my only hope for students, or my
               teaching career; I only had time for one or the other. Guiltily, I
-              chose to return to tech; although I would be leaving my students,
-              I knew the gap would only put me in a better position to serve
-              them.
+              chose to return to tech thinking although I would be leaving my
+              students, I knew the gap would only put me in a better position to
+              serve them.
             </p>
             <br />
             <p>
@@ -86,7 +86,7 @@ const Bio: React.FC<{
               U.S. Department of Education as a data analyst. This job married
               my interests in technology and ed policy enough to quell my guilt
               as I could continue contributing to public education through my
-              efforts informing policy decisions that trickle down to students
+              efforts informing policy decisions that trickled down to students
               while also growing in my coding skills. Around this time, I picked
               up app development, imagining tools that could have further
               automated my teaching workflows or career development mentoring
@@ -108,13 +108,14 @@ const Bio: React.FC<{
               have taken advantage of to continue growing in my technical
               skills. That being said, while I feel lucky in my current
               position, I can never forget my students and will always look for
-              ways I can serve them again now with my newfound skills.
+              ways I can more targetedly serve them again now with my newfound
+              skills.
             </p>
             <br />
             <p>
-              I am now a seasoned software engineer who can efficiently develop
-              applications together with AI, ready to reapply this experience
-              more directly to education. I am happy to expand on my story,
+              I am a seasoned software engineer who can efficiently develop
+              applications together with AI, ready to apply this experience more
+              directly to education. I am happy to expand on my story,
               experience, and skills and can be reached at{" "}
               <a
                 href="mailto:jamesdavidyu@gmail.com"
