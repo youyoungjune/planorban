@@ -21,7 +21,7 @@ const Bio: React.FC<{
         </IonButton>
         <div className="flex flex-col xl:flex-row justify-center gap-y-8 xl:gap-y-0 gap-x-4">
           <iframe
-            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLPJQZmCa2zC9gLsnEG3bAMYQ1UOwViherBmc5"
+            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLzGWwm9EwfIZTOd5vKqxuLcyDSkljEV8JNaXH"
             className="h-175 xl:h-231.25 xl:w-175"
           ></iframe>
           <div className="xl:w-175 px-8 2xl:p-0">
